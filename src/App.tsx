@@ -40,7 +40,7 @@ function App() {
           <a
             href="./assets/Prototype-You-Be-Fitness-Calculator-Editors-Version-2.xlsx"
             target="_blank"
-            download
+            download="Prototype-You-Be-Fitness-Calculator-Editors-Version-2.xlsx"
           >
             <button className="btn w-fit">Download assessment tool</button>
           </a>
