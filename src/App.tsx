@@ -38,7 +38,7 @@ function App() {
           </p>
 
           <a
-            href="./assets/Prototype-You-Be-Fitness-Calculator-Editors-Version-2.xlsx"
+            href="/Prototype-You-Be-Fitness-Calculator-Editors-Version-2.xlsx"
             target="_blank"
             download="Prototype-You-Be-Fitness-Calculator-Editors-Version-2.xlsx"
           >
