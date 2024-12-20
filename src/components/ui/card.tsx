@@ -5,7 +5,7 @@ interface CardProps {
 
 function Card({ title, description }: CardProps) {
   return (
-    <div className="card h-full w-96 border">
+    <div className="card h-full w-full border">
       <div className="card-body">
         <h2 className="card-title">{title}</h2>
         <p className="text-justify">{description}</p>
