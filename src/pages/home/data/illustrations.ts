@@ -18,6 +18,6 @@ export const illustrations: Illustration[] = [
   },
   {
     src: "/illustrations/cardio.svg",
-    name: "Cardio Endurance Test",
+    name: "Cardiovascular Test",
   },
 ];
