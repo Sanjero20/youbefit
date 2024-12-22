@@ -1,9 +1,10 @@
 import { useState } from "react";
+
 import AssessmentIntro from "./sections/introduction";
-import BmiForm from "./components/forms/bmi-form";
+import AssessmentForm from "./components/forms";
 
 function Assessment() {
-  const [start, setStart] = useState(false);
+  const [start, setStart] = useState(true);
 
   const startAssessment = () => {
     setStart(true);
@@ -26,8 +27,7 @@ function Assessment() {
 
       {start && (
         <div className="mx-auto flex w-full max-w-[600px] flex-col gap-2">
-          <BmiForm />
-
+          <AssessmentForm />
           <button
             className="btn btn-error mx-auto w-full bg-error text-white"
             onClick={resetAssessment}
